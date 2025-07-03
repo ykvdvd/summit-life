@@ -113,7 +113,8 @@ img {
   z-index: var(--z-fixed);
   background-color: #fff;
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
-  background-color: #f0f0f0;
+  /* background-color: #f0f0f0; */
+  background-color: white;
 }
 
 /*===== NAV =====*/
@@ -145,6 +146,7 @@ img {
 }
 .nav__link:hover {
   position: relative;
+
 }
 .nav__link:hover::after {
   position: absolute;
@@ -153,7 +155,7 @@ img {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: rgb(108 138 165);
 }
 .nav__logo {
   color: var(--second-color);
@@ -172,7 +174,7 @@ img {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: rgb(108 138 165);
 }
 
 /*=== Show menu ===*/
@@ -225,7 +227,7 @@ img {
 /*BUTTONS*/
 .button {
   display: inline-block;
-  background-color: var(--first-color);
+  background-color: rgb(108 138 165);
   color: #fff;
   padding: 0.75rem 2.5rem;
   font-weight: var(--font-semi);
@@ -287,7 +289,7 @@ img {
   position: absolute;
   left: 0;
   bottom: 0;
-  background-color: var(--first-color);
+  background-color: rgb(108 138 165);
   height: 0.25rem;
   border-radius: 0.5rem;
   z-index: var(--z-back);
@@ -372,6 +374,13 @@ img {
 .footer__copy {
   font-size: var(--smaller-font-size);
 }
+
+
+
+.logo-image-header {
+  max-height: 60px;
+}
+
 
 /* ===== MEDIA QUERIES=====*/
 @media screen and (max-width: 320px) {
@@ -479,6 +488,7 @@ img {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
   }
+
 }
 @media screen and (min-width: 992px) {
   .bd-grid {
@@ -491,4 +501,10 @@ img {
   .home__img {
     width: 450px;
   }
+}
+
+@media screen and (max-width: 770px) {
+  .logo-image-header {
+    max-height: 40px;
+  } 
 }

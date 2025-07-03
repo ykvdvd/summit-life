@@ -10,14 +10,32 @@
         <!-- =====BOX ICONS===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
+        <!-- =====Fonts===== -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200;800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab&family=Ruwudu&display=swap" rel="stylesheet">
+
         <title>Summit Life Care Planning</title>
     </head>
+    <style>
+    .section-title{
+        color: rgb(108 138 165);
+    }
+  
+     .section-title::after{
+        position: absolute;
+        content: '';
+ 
+        background-color:rgb(153 96 24);
+    }
+    </style>
     <body>
         <!--===== HEADER =====-->
         <header class="l-header">
             <nav class="nav bd-grid">
                 <div>
                     <!-- <a href="#" class="nav__logo">Marlon</a> -->
+                    git <img class="logo-image-header" src="assets/img/logo.png" alt="">
                 </div>
 
                 <div class="nav__menu" id="nav-menu">
@@ -28,8 +46,11 @@
                         <li class="nav__item"><a href="#work" class="nav__link">Education</a></li>
                         <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
                     </ul>
-                </div>
 
+                </div>
+                
+                <!-- <div class="about__img"> -->
+               <!-- </div> -->
                 <div class="nav__toggle" id="nav-toggle">
                     <i class='bx bx-menu'></i>
                 </div>
@@ -38,7 +59,7 @@
 
         <main class="l-main">
             <!--===== HOME =====-->
-            <section class="home " id="home" style="background-image: url('banner.jpeg');background-color: #cccccc;background-repeat: no-repeat;background-size: cover;color:#f0f0f0; position: relative;bottom: 100px;text-align: center;color:white;">
+            <section class="home " id="home" style="background-image: url('header-banner.jpg');background-color: #cccccc;background-repeat: no-repeat;background-size: cover;color:#f0f0f0; position: relative;bottom: 100px;text-align: center;color:white;">
                 <div class="home__data bd-grid">
                     <div style="margin-top:200px;"></div>
                     <div class="home__social">
@@ -46,7 +67,8 @@
                     <br>
                     <br>
                     <div class="home__data bd-grid"> 
-                        <h1 class="home__title" style="  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">SUMMIT LIFE CARE PLANNING, LLC</h1>
+                        <h1 class="home__title" style="text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #ffffff;font-family: 'Montserrat', sans-serif;color: #99601a;font-size: 54px;">SUMMIT LIFE CARE PLANNING, LLC</h1>
+                        <p class="home__title" style="    text-shadow: -1px -1px 0 #99601a, 1px -1px 0 #99601a, -1px 1px 0 #99601b, 1px 1px 0 #99601a;font-family: 'Montserrat', sans-serif;color: #eee4cd;font-size: 30px;font-weight: 700;">Integrity – Quality – Excellence</p>
                     </div>
                 </div>
 
@@ -74,7 +96,7 @@
                         <!-- <br> -->
                         <br>
                         <p class="about__text">
-                            I have recently launched my own company - Summit Life Care Planning, LLC - which provides life care planning services for individuals with complex medical needs. Whether in the context of litigation or not, I provide comprehensive reports that determine the long-term healthcare needs for an individual and project cost for care over the individual's lifetime.
+                         I am proud to announce the launch of Summit Life Care Planning, LLC, which provides life care planning services for individuals with complex medical needs. I bring nearly a decade of experience in the field of Life Care Planning and am passionate about providing comprehensive, quality reports with integrity, efficiency and excellence. With a strong clinical background in pediatrics, I have special expertise in addressing the long-term needs of children with cerebral palsy, autism and a variety of rare genetic conditions. I also have extensive testimony experience, having testified on more than 50 occasions and having been admitted as an expert witness in more than half a dozen states. 
                         </p>
 
                          <br>
@@ -99,7 +121,7 @@
                 <div class="skills__container bd-grid">          
                     <div>
                         <!-- <h2 class="skills__subtitle">Professional & Educational Background</h2> -->
-                        <p class="skills__text">
+                        <!-- <p class="skills__text">
                             I have been working as a certified nurse life care planner since 2016. I started life care planning at BalaCare Solutions, under the mentorship of Mona Yudkoff. I later served as Lead Clinical Nurse Life Care Planner at Promedica Verity Group. 
                             In 2024, I launched Summit Life Care Planning, LLC to provide life care planning services with integrity, efficiency and excellence.
                             I have authored several hundred reports that address the long-term healthcare needs of medically complex individuals, including those with spinal cord injury, traumatic brain injury, chronic pain, amputation, birth injury, orthopedic injuries and chronic pain conditions. With a strong clinical background in pediatrics, I have special expertise in addressing the long-term needs of children with cerebral palsy, autism and a variety of rare genetic conditions. I have testified on more than 50 occasions and have been admitted as an expert witness in more than half a dozen states. 
@@ -107,7 +129,18 @@
                         <p class="skills__text">
                             Aside from life care planning, I have had an extensive career in clinical practice. I began my nursing career as a registered nurse in the cardiac intensive care unit at D.C. Children’s Hospital. After completing a Master’s in Nursing with an emphasis in Acute / Chronic Pediatrics, I assumed a position as a nurse practitioner in the Section of Hematology at St. Chrisotpher’s Hospital for Children, where I worked for 15 years! In that capacity, I performed physical examinations, ordered diagnostic studies, prescribed medications, made referrals to other specialists, and provided extensive education to patients and their families. I also served as a clinical nurse preceptor to graduate nursing students and assisted in clinical drug trials. I worked briefly at Quality Community Health Center in Philadelphia in 2021, providing primary care services to children and adolescents. In 2015 - 2016, I provided private case management services to children and adults with extensive medical and nursing needs.
                             
-                        </p>                   
+                        </p>    -->
+                        
+                        <ul style="list-style: disc;margin-left: 20px;text-align: left;">
+                        <!-- <ul style="text-align: center;"> -->
+                            <li>Life Care Planner, Summit Life Care Planning, LLC, 2024 - present</li>
+                            <li>Clinical Nurse Lead Life Care Planner, Promedica Verity Group, 2022 - 2024</li>
+                            <li>Life Care Planner, Promedica Verity Group, 2020 - 2024</li>
+                            <li>Life Care Planner, Bala Care Solutions (f/k/a Mona Yudkoff Rehab Consultants), 2015 - 2018</li>
+                            <li>Nurse Practitioner, St. Christopher's Hospital for Children, 2010 - 2025</li>
+                            <li>Case Manager, Bala Care Solutions (f/k/a Mona Yudkoff Rehab Consultants), 2008 - 2009 & 2015 - 2016</li>
+                            <li>Registered Nurse, D.C. Children's Hospital, 2006 - 2008</li>
+                        </ul>
                     </div>
                         <div>              
                             <img src="assets/img/heart-stethoscope.png" alt="" class="skills__img">
@@ -237,9 +270,29 @@
             </section>
 
             <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
+            <!-- <section class="contact section" id="contact">
                 <h2 class="section-title">Contact</h2>
-                <p style="text-align: center;">Let us know how we can help you!</p>
+                <p style="text-align: center;">Please reach out with any life care planning needs or questions. I am looking forward to hearing from you!</p>
+
+                <div class="contact__container bd-grid">
+                    <form class="contact__form" action="https://formspree.io/f/mnqeekrk"
+                    method="POST">
+                        <input type="mail" name="email" placeholder="Your Email" class="contact__input">
+                        <textarea name="message" id="" cols="0" rows="10" class="contact__input" placeholder="Your Message"></textarea>
+                        <button type="submit" class="contact__button button">Send</button>
+                    </form>
+                </div>
+            </section> -->
+
+
+            <!--===== Contact =====-->
+            <section class="skills section">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="skills__container bd-grid">          
+                    <section class="contact section" id="contact">
+                <!-- <h2 class="section-title">Contact</h2> -->
+                <p style="text-align: center;">Please reach out with any life care planning needs or questions. I am looking forward to hearing from you!</p>
 
                 <div class="contact__container bd-grid">
                     <form class="contact__form" action="https://formspree.io/f/mnqeekrk"
@@ -251,6 +304,13 @@
                     </form>
                 </div>
             </section>
+                        <div style="display: flex;flex-wrap: nowrap;flex-direction: column;align-content: space-between;justify-content: center;align-items: center;">              
+                            <img src="./assets/img/logo.png" class="skills__img">
+                            <p style="margin-top: 20px;font-size: 15px;color: #7a4b15;">Integrity – Quality – Excellence</p>
+                        </div>
+                </div>
+            </section>
+
         </main>
 
         <!--===== FOOTER =====-->
